@@ -1,0 +1,36 @@
+{
+  "name": "task-manager-system",
+  "version": "1.0.0",
+  "description": "A simple task manager backend application that allows users to login, create, modify and delete tasks",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hizaram/task-manager-system.git"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "backend",
+    "application",
+    "tasks",
+    "user"
+  ],
+  "author": "Nwachukwu Promise Chizaram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hizaram/task-manager-system/issues"
+  },
+  "homepage": "https://github.com/Hizaram/task-manager-system#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  }
+}
